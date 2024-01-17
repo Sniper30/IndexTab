@@ -1,1 +1,1 @@
-Chrome Extension to easily navigate thrught tabs.
+Chrome Extension to easily navigate through tabs.
