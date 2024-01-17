@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Hello Extensions",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "background":{
+    "service_worker":"service-worker.js"
+  },
+  "action": {
+    "default_icon": "tabs_FILL0_wght400_GRAD0_opsz24.png",
+    "default_popup":"popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "webNavigation",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+
+}
